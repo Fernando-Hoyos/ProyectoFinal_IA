@@ -12,7 +12,7 @@ ClientSession.__deepcopy__ = lambda self, memo: self
 # FUNCIÓN PRINCIPAL
 async def generate():
 
-    client = genai.Client(api_key="AQ.Ab8RN6KkJEBAd0nkZkiRIqxDuqHro9pEiTJCKPLueFq85lk7tg")  # Reemplaza con tu API Key de Google Gemini
+    client = genai.Client(api_key="Remplazar Llave")  ")  # Reemplaza con tu API Key de Google Gemini
 
     server_params = StdioServerParameters(
         command=sys.executable,
