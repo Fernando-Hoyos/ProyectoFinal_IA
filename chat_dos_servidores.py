@@ -19,7 +19,7 @@ os.makedirs(CARPETA_TRABAJO, exist_ok=True)
 # FUNCIÓN PRINCIPAL
 async def generate():
 
-    client = genai.Client(api_key="AQ.Ab8RN6KkJEBAd0nkZkiRIqxDuqHro9pEiTJCKPLueFq85lk7tg")  # Reemplaza con tu API Key de Google Gemini
+    client = genai.Client(api_key="Remplazar Llave")  # Reemplaza con tu API Key de Google Gemini
 
     # Servidor 1: archivos y directorios
     params_archivos = StdioServerParameters(
